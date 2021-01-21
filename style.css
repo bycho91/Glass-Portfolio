@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(#c6def1), to(#faedcb));
+  background: linear-gradient(to right bottom, #c6def1, #faedcb);
+}
+
+h2, h4 {
+  margin: 0;
+}
+
+.container-main {
+  width: 80%;
+  height: 85vh;
+  background: -webkit-gradient(linear, left bottom, right top, from(rgba(255, 255, 255, 0.4)), to(rgba(255, 255, 255, 0.1)));
+  background: linear-gradient(to right top, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.1));
+  -webkit-backdrop-filter: blur(2em);
+          backdrop-filter: blur(2em);
+  border-radius: 2em;
+  -webkit-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.dashboard {
+  width: 20%;
+  height: 100%;
+  border-bottom-left-radius: 2em;
+  border-top-left-radius: 2em;
+  background: -webkit-gradient(linear, left bottom, right top, from(rgba(255, 255, 255, 0.8)), to(rgba(255, 255, 255, 0.5)));
+  background: linear-gradient(to right top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  -webkit-backdrop-filter: blur(1em);
+          backdrop-filter: blur(1em);
+  padding: 1.5em 1.5em;
+  text-align: center;
+}
+
+.dashboard .name {
+  color: #d4a373;
+  margin-bottom: -8px;
+}
+
+.dashboard .subheader {
+  margin: 0;
+  font-size: .8rem;
+}
+
+.dashboard .avatar {
+  margin: 1em 0;
+}
+
+.dashboard .avatar img {
+  width: 100px;
+  height: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.dashboard .links {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.dashboard .links .links-item {
+  margin: 1.5em 0;
+}
+
+.dashboard .links .links-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.dashboard .links .links-item.active {
+  border-right: 3px solid #f08080;
+}
+
+.dashboard .links .links-item.active a {
+  color: #d4a373;
+}
+/*# sourceMappingURL=style.css.map */
